@@ -29,7 +29,10 @@ export function setupGUI(parentContext) {
   parentContext.gui.add(parentContext.params, 'scene', {
     "Humanoid": "humanoid.xml", "Cassie": "agility_cassie/scene.xml",
     "Hammock": "hammock.xml", "Balloons": "balloons.xml", "Hand": "shadow_hand/scene_right.xml",
-    "Flag": "flag.xml", "Mug": "mug.xml"
+    "Flag": "flag.xml", "Mug": "mug.xml",
+    "22_humanoids.xml" : "22_humanoids.xml",
+    "adhesion.xml" : "adhesion.xml",
+    "arm26.xml" : "arm26.xml"
   }).name('Example Scene').onChange(reload);
 
   // Add a help menu.
